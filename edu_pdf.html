@@ -98,7 +98,7 @@ function MM_validateForm() { //v4.0
           type : "POST",
           data : $('form').serialize(),
           success : (response) => {
-            location.href = response;
+            console.log(response);
           }
         });
         
